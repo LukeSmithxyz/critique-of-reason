@@ -1,0 +1,328 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[backend=biber, style=authoryear-icomp,maxnames=2]{biblatex}
+\usepackage{ot-tableau}
+\usepackage{titlesec}
+\usepackage{easylist}
+\usepackage{hanging}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{tipa}
+\usepackage{cgloss4e}
+\usepackage{epigraph}
+\usepackage{gb4e}
+\usepackage{qtree}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{textgreek}
+\addbibresource{$HOME/Documents/LaTeX/uni.bib}
+
+\titleformat{\section}
+{\bfseries\centering\large}
+{§\thesection}
+{1em}
+{}
+
+\titleformat{\subsection}
+{\bfseries\centering}
+{§\thesubsection}
+{1em}
+{}
+
+\titleformat{\subsubsection}
+{\bfseries\centering}
+{§\thesubsubsection}
+{1em}
+{}
+
+
+\title{{\textgreater}tfw too rational to be rational}
+\author{Luke Smith}
+
+\begin{document}
+
+\maketitle
+
+\begin{quote}
+``The aberration of philosophy is that, instead of seeing logic and the categories of reason as means toward the adjustment of the world for utilitarian ends (basically involving an expedient falsification), one believed one possessed in them the criterion of truth and reality.
+	[\ldots]
+Instead of employing them as a tool to make the world manageable and calculable, the madness of philosophers imagined that in these categories it presented the concept of another `true' world, to which the one in which man lives does not correspond.
+	[\ldots]
+This is the greatest error that has ever been committed.
+One believed one possessed a criterion of reality in the form of reason, while in fact, one possessed them in order to become master of reality.
+In order to misunderstand reality in a shrewd manner.
+And behold: now this world came to seem false, and precisely on account of the properties that constitute its reality: change, becoming, multiplicity, opposition, contradiction, war.
+And then, the entire fatal error was there.''
+	\vspace{.25cm}\hrule
+	\hfill Friedrich Nietzsche, \citetitle{nietzsche88}, 1888
+\end{quote}
+
+\section{How Not to Do Optometry}
+
+Imagine if there was a school of thought in the ocular sciences that insisted that humans are endowed with an ``irrational'' visual system.
+They could find evidence of their view everywhere.
+
+Most of their fruitful empirical work would consist in putting humans in unfamiliar or unnatural viewing situations, perhaps with optical illusions or color distinguished by an imperceptible degree.
+They would run their experiments expectantly, and to no one's surprise, would find that humans are terribly bad at performing these rarified tasks.
+
+They would talk about the theory behind it all: objects are actually just agglomorations of atoms, which the human visual system fails to see, qualia like color are utter illusions, in reality they are only light of different wavelengths that our eyes erroneously perceive as these invented colors, which exist nowhere outside of the mind.
+In short, the human visual system is mostly a lie, and can easily be spoofed and tricked.
+
+Visual science popularizers would write books about how you can overcome your irrational eyes.
+People would see new technology, like computer screens, and talk about how poorly suited the human eyes are at adjusting to prolonged use of these evolutionarily unprecedented circumstances.
+
+No doubt there might be a good bit of popular snobbery, where those educated in this kind of science would look down on rubes who insisted on relying on their own irrational eyes rather than the formal deductions of Rational Eye Theory.
+When a person was told that they perceived something ``irrational'', they would view it as a problem to be fixed.
+
+This fantasy may sound somewhat absurd, but it's not to dissimilar too the world we live in.
+Visual scientists don't subscribe to an ideology so queer, but many economists, cognitive scientists, decision theorists and others hold, more or less the same idea about human cognition, implicitly or explicitly.
+
+For the last 60 or 70 years, there has been a fixation in these fields with human ``irrationality'' generally.
+Part of this is a necessary theoretical defense mechanism: after several centuries of economic modelling, it was realized that humans don't necessarily follow the assumptions of whatever economic theory.
+The error of economists had to be an error of the assumptions, and the most frequently blamed was that amorphous assumption of ``rationality''.
+
+We are told not just that the human mind is equipped with some heuristics, but that these heuristics, seeing that they fail to match a Platonic standard of ``logic'' are in fact ``irrational''.
+If heuristics lead us to correct conclusions in complex domains, even systematically so, that is a kind of accident, like a broken clock being right twice a day.
+It's quite common, like the optometrist who ascribes to Rational Eye Theory, to create rarified experimental environments where decision heuristics are taken \textit{ad absurdum}, put participants in them, then react in surprise that these novel situations elicit ``irrational'' responses.
+
+\subsection{What's Wrong with Rational Eye Theory?}
+
+Rational Eye Theory doesn't do faulty research.
+They don't necessarily publish false things, in fact the research is interesting and important for understanding the visual system.
+
+Rational Eye Theory errs on two points.
+First, it attributes a normative value to the visual system.
+Even when proponents insist that Rational Eye Theory is merely positive, they still use very normative words to lambast what fails to meet its standard (``irrational'', ``biased'' etc.)
+It creates an artificial Platonic ideal of what ``rational'' vision is, an ideal totally disconnected from the actual use of the eye.
+Calling this ideal ``rational'' or ``good'', it assumes that any tendency of the eye to not follow this invented standard is therefore ``bad'' or ``irrational''.
+
+Second, it misses the whole reason vision exists.
+Vision does not exist to solve sterile, contextless visual puzzles or survive optical illusions in experimental circumstances.
+It is a tool for making the relevant distinctions in real life, and doing so quickly and efficiently using as few priors and as little statistical noise as possible.
+
+This is the metric to which vision should be assessed.
+While we might want to totally keep normative judgments away from science, if we were to call anything ``good'' or ``rational'', it should be this.
+Indeed it is easy to argue, as I will in section \ref{models} that the difference between the employment of so-called heuristics and biases and the use of what we traditionally think of as deductive reason is a fundamental difference of quantity, not of adherence to truth of effectiveness.
+
+And naturally, the same is true of those who like to imagine that humans are flawed for their ``irrationalities'' in decision-making.
+We should not constantly evaluate normatively human decision-making by its adherence to an artificial standard of coherence in highly limited circumstances.
+Humans may be Dutch Book-able in experimental circumstances, or in situations outside of their familiarity, but as I'll argue in section \ref{tails}, in the most important domain of practical behavior, in uncertainty, so-called ``irrationality'' in the form of precausion and avoidance of the unfamiliar is precisely what keeps
+<++>
+Instead, if we do judge human reliance on heuristics and biases, we should only do so in the environment where it developed and where it is actually suited to operate in: i.e. \emph{real life}.
+
+Like vision, human reason and heuristics is not supposed to reflect a Platonic ideal of the world, nor are the generalizations we can make about the different cognitive modules operating in life comparable or equivalent (meaning, they can seem incoherent and contradictory and still highly effective).
+Human reason and heuristics exist to produce results, and like vision, body-motion, tactile sensation and all other human senses, each of these function in the domain they have developed in.
+
+The sociological edge of this is that much of this has led to a public condemnation of intuitive or heuristic thinking.
+In most times and places, reliance on heuristics (inborn or otherwise) is vastly superior to a deliberative (``rational'') consideration of problems.
+
+%\section{In this paper}
+
+%My humble objective is to turn everything upside-down.
+%I'll first argue that what is ``rational'' is actually irrational, that is, that the formal tools having been developed in the past half century are terrible guides to rational behavior outside of their experimental padded room (Section \ref{rat}).
+
+%Then, I'll argue that what is ``irrational'' is actually rational, that is, our heuristics and ``biases'' are very good guides to advantageous decision-making (Section \ref{heu}).
+
+%Lastly, I'll talk about the evolutionary ramifications of this in Section \ref{evo}, leaning mostly but not categorically to a Darwinian explanation of the effectiveness of our heuristics.
+
+%First some terminology.
+%I don't want to have to use the words ``rational'' or ``reason'' in scare quote for the entire paper.
+%I think the use of the word predisposes one to particular ways of thinking (hence the quotes).
+%I want to term what we generally think of as ``reason'' \textit{deliberation} and what we call ``rational'' \textit{deliberative}.
+%Deliberation is not necessarily reasonable or rational, but when people talk about ``reason'' this is really what they mean: a slow, often conscious analysis of a problem, which often involved higher level processes like arithmetic, memory, conscious comparison and others.
+
+\section{Organization}
+
+I've organized this argument into numbered sections, but each is a holon in itself.
+I am not presenting so much of a single thesis about reason, but a gestalt, and am doing so precisely because I reckon this misunderstanding of the human mind has many tendrils in need of addressing in distinct ways.
+
+
+\section{Not so irrational after all}
+
+\textcite[14--15]{gigerenzer08} does well to list some of these reversals,  and it is worth repeating them in part.
+
+
+
+Some biases are not so much biases at all, so much as results of 
+
+
+
+As \textcite{hertig05} note, the ``irrational'' overestimation of rare chances and the underestimation of more likely ones is not so much an error as a habit of \emph{hedging against error}: one assumes that their information is incomplete, and as such all probabilities should regress to the mean.
+
+The same is true of the so-called \textit{Hard-Easy Effect}, where humans tend to overestimate performance on difficult tasks while underestimating performance on the mundane: the effect is as well a self-critical expectation of regression to the mean.
+Indeed in \textcite{juslin00}'s revision of this ``bias'', they compare the those who insist on general human irrationality to the belief that, because the horizon is flat, therefore the world must be also: a ``naive empiricism''.
+
+
+\section{The algorithm of deconstruction}
+
+This belief exists because it falls out of an easy and all-to-common algorithm of deconstruction which had become quite popular in the 20th century.
+It's not new; one can refer to \textcite{nietzsche88}'s interdict against philosophers reproduced at the introduction to this document, which decries the same intellectual tendency.
+One can also see the condemnations of Platonism as a moral and political philosophy in \textcite{popper45} which amount to the same criticism.
+Yet, this algorithm has been a comme
+
+This algorithm is simple.
+(1) Invent an abstract ``rational'' metric and a narrow logical standard, ignoring what aspects of life deemed unimportant. As Nietzsche notes, this standard can indeed come from some genuinely practical use of reason.
+(2) Make deductions in this logical system.
+(3) Bring these deductions back into the real world.
+(4) If the deductions fail to correspond to real-life behavior, conclude that real-life behavior is ``irrational''.
+(5) 
+
+
+\textcite{gigerenzer96}, in a reply to \textcite{kahneman96}, voices the same critique of the so-called ``heutistics-and-biases'' program, saying\ldots
+
+\begin{quotation}
+	``Most practical statisticians start by investigating the content of a problem, work out a set of assumptions, and, finally, build a statistical model based on these assumptions.
+	The heuristics-and-biases program starts at the opposite end.
+	A convenient statistical principle, such as the conjunction rule or Bayes's rule, is chosen as normative, and some real-world content is filled in afterward, on the assumption that only structure matters.''
+\end{quotation}
+
+That is, before thorough investigation of cognition, we are typical to first decide how cognitition \emph{should be} ordered.
+As Gi
+
+
+To bring to bear a distinction common in linguistics: the difference between linguistic description (describing facts about language and motivating them on 
+
+
+It's no different than an proverbial economist who, when chided for his blatant failures to predict or model events, retorts saying ``it's not my fault people aren't rational''.
+
+
+
+Poor Nietzsche would be 
+The mediocre spectre of logical positivism
+
+
+
+\begin{quotation}
+	``Whether this is so because of normative conceptions of rationality, or simply with subject being `right' or `wrong,' is up to a point [of] terminological dispute. What counts is that everyone's life would be better if we learned to correct many of these spontaneous probabilistic intuitions of ours, and there are `reasons' that we would be better off.''
+\end{quotation}
+
+<++>
+
+\section{The one difference}
+
+If there's one difference between 
+
+
+
+\section{Where do biases end and optimization begin?}
+
+Take a popular psychological mind hack. Say we ask experiment participants (or random people on the street) to give their estimates for math problems. A common so-called ``glitch'' in human computation is shown by giving people the following who problems:
+
+\begin{exe}
+	\ex $1\times2\times3\times4\times5\times6\times7\times8$
+\end{exe}
+
+<++>
+
+\begin{exe}
+	\ex $8\times7\times6\times5\times4\times3\times2\times1$ 
+\end{exe}
+
+The answer to both of these math problems is 40,320.
+
+A good question then is \textit{What is the \emph{unbiased}, rational estimate?}
+
+To reevoke the comparison of heuristics to the ocular system, a decent question worth asking is ``what would a totally `rational', `optimized' and clear ocular system look like?''
+Would it see atoms themselves?
+Would it see qualia such as color and solidity that we know are illusions?
+
+There are not so much good answers to these questions because there are \emph{not even coherent} answers to them.
+
+In the same way, how would a \emph{totally rational} human make decisions?
+The way that theorists are wont to model it would be that 
+
+\section{They are all models\label{models}}
+
+We should take a step back to be clear for a second.
+Nowhere am I suggesting that what is called reason is \emph{bad} \textit{per se}, rather I object to a na{\"i}ve supremacy attributed to it.
+In this vision, optimization is the proper measure of the world, not other mental tools, and if optimization fails to shine in a particular domain, that is no fault of its own.
+
+But on closer analysis it should be clear that the borders between optimization and the use of heuristics is are fuzzy at best.
+In reality, all implementations of both heuristics and rational deliberation are models of the world spread about a gradient of complexity.
+
+A heuristic is a simple model, often with only one variable input, which is sometimes binary at that.
+The logical form of a heuristic as a model can be as simple as $A{\rightarrow}B$.
+Such a model is as economical as computationally possible and can lead quite easily to a solution.
+
+Reason too is a model, albeit a more complex one.
+In the most semantically bleached form, it involves various propositions (sometimes statistical in nature) and logical connectives which join the inputs in suchy a way to give the desired answer.
+
+This more complex model necessitates generalizing, checking for contradiction among subtheses (effectively \textit{proving} or \textit{disproving})
+
+When we think about the difference between reliance on heurisitc and reliance onreason, we are really thinking of a difference of quantity.
+
+There is not necessarily less logic in a heuristic than there is in more advanced logical optimization.
+One might object saying that reason imputes causality or some deeper level of relation than a heuristic, but it should be clear that this is an illusion.
+
+The proper way, I think, to look reason/optimization or what is called System 2 in \textcite{kahneman11} and similar works, is not so much as a descrete sense of deliberation \emph{per se}, but as a general tool that recruits other narrow mental faculties, heuristics and microtools to the set purpose.
+
+The conscious process of reasoning or deliberation or optimization is often one in which the reasoner trolls his mind for more variables and heuristics to load into the model.
+The simple heuristic solution may already be there, and he is cognizant of it, but he wants to ``be sure'' by adding all the variables he can think of to his implicit model.
+
+This consists not in abandoning heuristic thinking, but in evoking an ever greater quantity of heuristics to 
+
+But the addition of more model variables comes with diminishing returns either sooner or later.
+Formal models often show poorer performance than heuristics precisely because they have much more statistical noise.
+
+At the worst the optimization process fails to converge on a solution in what has been called ``paralysis by analysis'' or ``the paradox of choice'' \parencite{schwartz04}.
+This ammounts to an integration of so many variables into a model of decision-making that the decision-making itself becomes impossible due to the overlapping uncertainties
+
+
+\section{On THICC tails\label{tails}}
+
+<++>
+
+
+\section{Heuristics in Evolution?}
+
+\textcite{schulz11}
+
+
+\subsection{Heuristics as Exaptation}
+
+It has been argued \parencite{massimo89,gould91} that 
+
+Part of this stems from a general skepticism of the coherence of natural ``selection'' as a concept (see \textcite{fodor10}).
+With respect to the construction of evolutionary \textit{just-so} stories, this is an important critique, but our narrative here does not necessarily relied on it.
+
+That is---to say that heuristics, and how and when they are used are all well calibrated to the human environment is not to say that the heuristics are physiologically present in the mind-brain, nor is it to say that they were chosen by natural selection.
+It's equally as easy to these heuristics were \emph{exaptive} \parencite{buss98} or spandrels in the sense of \textcite{gould79}, brought about by happenstance and repurposed for new ends.
+
+Indeed, \textcite{gigerenzer08} addresses heuristics not as evolutionarily selected, but saying that they ``exploit evolved capacities'', or in other words, as exaptations.
+Heuristics in \textcite{gigerenzer08}'s terminology, mental heuristics are not ingrained mental tunnels, but an \emph{adaptive toolbox} or different general capacities which are evoked \emph{ad hoc} to be useful when they are found to be so.
+
+The same sentiment is echoed by \textcite{anderson90}, where \emph{cognition itself} is adaptive.
+Heuristics and biases are often 
+
+\section{``Biases'' are results, not operations}
+
+One of the pernitiously flawed metaphors when talking about biases is the idea that there is some otherwise sterile deliberative process generating well-reasoned estimates generally, which is only then obfuscated by a ``bias'' that puts its finger on the scale, changing the output.
+
+What is happening is that cognitive heuristics are applying algorthmically to address problems, and when we notice the tendencies of the heuristics to missguess, we call that difference a ``bias''.
+
+In the case of the math problems above, it is not the case that we have some ``unbiased'' multiplication algorithm which impartially provides approximations of math problems without reference to context.
+
+Instead, what probably happens in each case is that we investigate the math problem and begin estimating the product moving left to right.
+As our memory is taxed, our estimation becomes more fuzzy until we simply give up and give a very general guess, paying little attention to the later numbers.
+
+
+\section{Experiments like a haunted house}
+
+Research such as that in \textcite{hsu05} is fundamental as it paints a more complete picture of how ``unrational'' parts of the brain come into play.
+The amygdala and other ``emotional'' centers of the brain are recruited into decision-making precisely when those typical centers characteristic of logical optimization fall short of making a holistic and contexted decision.
+
+And, when brain damage makes the amygdala uninvokable, decision making \emph{gets worse}.
+A person
+
+\section{Abstract Reasoning}
+
+One example of this is the secular rise in IQ scores generally noted by psychologists, eventually dubbed ``the Flynn Effect'' by \textcite{herrnstein94} (after \textcite{flynn87}).
+
+Efforts to attribute this rise to a spectacular genetic factor are not generally accepted or are variously vexed \parencite{woodley11}, while even recent research seems to vidicate that the Flynn Effect is most saliently correlated with an increased reliance on abstract reasoning \parencite{must16}.
+
+\printbibliography
+
+\end{document}
+
+%Ignoring uncertainty, or worse, treating it as risk makes us Dutch Bookable to nature.
