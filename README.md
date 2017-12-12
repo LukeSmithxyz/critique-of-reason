@@ -1,4 +1,4 @@
-# Tfw too Rational to be Rational
+# A Critique of Reason
 
 A paper written for COGS/PSY/MGM/LING/PHIL 696E
 
